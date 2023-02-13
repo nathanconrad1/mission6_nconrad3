@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Movie Submitted";
+}
+
+@model mission6_nconrad3.Models.ApplicationResponse
+
+@if (Model.Rating == "R")
+{
+    <p>That movie sucked</p>
+}
+else
+            {
+    <p>Sound like a good movie</p>
+            }
+
+
+
+<h2>The Movie @Model.Title received.  Thank you</h2>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mission6_nconrad3", "mission6_nconrad3\mission6_nconrad3.csproj", "{BB06F8F8-E00B-4789-8950-17F3280F6911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB06F8F8-E00B-4789-8950-17F3280F6911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB06F8F8-E00B-4789-8950-17F3280F6911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB06F8F8-E00B-4789-8950-17F3280F6911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB06F8F8-E00B-4789-8950-17F3280F6911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE5B0BFD-D559-42A0-9CD3-4173E1A5A85A}
+	EndGlobalSection
+EndGlobal

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace mission6_nconrad3.Models
 {
+    //creating model
     public class ApplicationResponse
     {
         [Key]

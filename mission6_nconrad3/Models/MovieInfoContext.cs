@@ -16,10 +16,12 @@ namespace mission6_nconrad3.Models
 
         public DbSet<ApplicationResponse> responses { get; set; }
 
+        //creation of model
         protected override void OnModelCreating(ModelBuilder mb)
         {
             mb.Entity<ApplicationResponse>().HasData(
 
+                //seeded data
                 new ApplicationResponse
                 {
                     ApplicationID = 1,

@@ -20,15 +20,19 @@ namespace mission6_nconrad3.Controllers
             blahContext = someName;
         }
 
+        //Controller to index
         public IActionResult Index()
         {
             return View();
         }
 
+        //Controller to podcast
         public IActionResult podcast()
         {
             return View();
         }
+
+        //Movie entry and post 
 
         [HttpGet]
         public IActionResult EnterMovie ()

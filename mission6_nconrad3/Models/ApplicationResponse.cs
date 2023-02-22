@@ -14,8 +14,7 @@ namespace mission6_nconrad3.Models
         public int ApplicationID { get; set; }
         [Required]
         public string Title { get; set; }
-        [Required]
-        public string Category { get; set; }
+
         [Required]
         public int Year { get; set; }
         [Required]
@@ -27,5 +26,10 @@ namespace mission6_nconrad3.Models
         public string LentTo { get; set; }
         [StringLength(25)]
         public string Notes { get; set; }
+
+        [Required]
+        public int CategoryID { get; set; }
+        public Category Category { get; set; }
+
     }
 }
